@@ -3,7 +3,7 @@ function triangleArea(a, b, c) {
     const p = (a + b + c) / 2;
     const area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
 
-    return Math.round((area + Number.EPSILON) * 100) / 100
+    return Math.round((area + Number.EPSILON) * 100) / 100;
   }
   return -1
 }
