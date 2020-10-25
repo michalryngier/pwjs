@@ -1,3 +1,3 @@
 function divisible(a) {
-  return !Object.keys(arguments).some(arg => arguments[0] % arguments[arg] !== 0);
+  return !Object.keys(arguments).some(arg => a % arguments[arg] !== 0);
 }
