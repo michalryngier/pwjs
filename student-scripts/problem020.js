@@ -1,13 +1,11 @@
-class Square {
-  constructor(a) {
-    this.side = a;
-  }
+function Square(a) {
+  this.side = a;
+}
 
-  getArea() {
-    return this.side * this.side;
-  }
+Square.prototype.getArea = function() {
+  return this.side * this.side;
+}
 
-  getPerimeter() {
-    return this.side * 4;
-  }
+Square.prototype.getPerimeter = function() {
+  return this.side * 4;
 }
